@@ -58,3 +58,4 @@ public class ViewAnimationUtils {
         a.setDuration((int) (initialHeight / v.getContext().getResources().getDisplayMetrics().density));
         v.startAnimation(a);
     }
+}
