@@ -22,6 +22,7 @@
         <activity android:name=".ui.PwdActivity" />
         <activity android:name=".ui.ExpandableTextActivity" />
         <activity android:name=".ui.greendao.GreenDaoTestActivity" />
+        <activity android:name=".ui.LeanTextActivity" />
     </application>
 
 </manifest>

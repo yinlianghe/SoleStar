@@ -46,5 +46,12 @@
         android:text="GreenDao Test" />
 
 
+    <Button
+        android:id="@+id/btn_main_lean_text_view_test"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_red_light"
+        android:text="Lean View" />
 
 </LinearLayout>

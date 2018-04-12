@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     private Button mPwdBTN;
     private Button mExpandBTN;
     private Button mGreenDaoTestBTN;
+    private Button mLeanTextView;
 
 
     @Override
@@ -60,6 +61,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, GreenDaoTestActivity.class));
+            }
+        });
+
+        mLeanTextView = findViewById(R.id.btn_main_lean_text_view_test);
+        mLeanTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, LeanTextActivity.class));
             }
         });
     }
