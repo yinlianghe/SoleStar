@@ -54,4 +54,21 @@
         android:background="@android:color/holo_red_light"
         android:text="Lean View" />
 
+    <Button
+        android:id="@+id/btn_main_lean_srcoll_to_test"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_red_light"
+        android:text="Scroll To 方法实验" />
+
+    <Button
+        android:id="@+id/btn_main_lean_scroll_layout_test"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_red_light"
+        android:text="Scroll Layout 方法实验" />
+
+
 </LinearLayout>

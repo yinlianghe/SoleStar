@@ -17,7 +17,8 @@ public class MainActivity extends AppCompatActivity {
     private Button mExpandBTN;
     private Button mGreenDaoTestBTN;
     private Button mLeanTextView;
-
+    private Button mScrollToTestBTN;
+    private Button mScrollLayoutBTN;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -69,6 +70,22 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, LeanTextActivity.class));
+            }
+        });
+
+        mScrollToTestBTN = findViewById(R.id.btn_main_lean_srcoll_to_test);
+        mScrollToTestBTN.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, ScrollToTestActivity.class));
+            }
+        });
+
+        mScrollLayoutBTN = findViewById(R.id.btn_main_lean_scroll_layout_test);
+        mScrollLayoutBTN.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, ScrollLayoutActivity.class));
             }
         });
     }

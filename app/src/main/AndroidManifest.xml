@@ -23,6 +23,8 @@
         <activity android:name=".ui.ExpandableTextActivity" />
         <activity android:name=".ui.greendao.GreenDaoTestActivity" />
         <activity android:name=".ui.LeanTextActivity" />
+        <activity android:name=".ui.ScrollToTestActivity" />
+        <activity android:name=".ui.ScrollLayoutActivity"></activity>
     </application>
 
 </manifest>
